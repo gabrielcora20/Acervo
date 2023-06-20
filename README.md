@@ -1,6 +1,6 @@
 # Acervo (produzido pela Morgana) 
 ## **Descrição**
-A **Morgana** se trata de um sistema desenvolvido por mim para documentar e sumarizar tudo o que eu aprendo. Esse repositório contém todos os PDFs das pesquisas desenvolvidas.
+A **Morgana** se trata de um sistema desenvolvido por mim para documentar e sumarizar o que aprendo. Esse repositório contém todos os PDFs das pesquisas desenvolvidas.
 
 ## **Sumário**
 
