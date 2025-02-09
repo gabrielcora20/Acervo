@@ -6434,17 +6434,254 @@
 
 ## 5. Matemática Aplicada (Uso da Matemática para Resolver Problemas Reais)
 
-- Probabilidade e Estatística
-  - Teoria da Probabilidade (Axiomática, Probabilidade Condicional, Variáveis Aleatórias, Distribuições, Teorema Central do Limite)
-  - Processos Estocásticos (Processos de Markov, Cadeias de Markov, Processos de Difusão, Movimento Browniano, Cálculo Estocástico)
-  - Inferência Estatística (Estimação Pontual, Estimação por Intervalo, Testes de Hipóteses, Análise de Variância, Regressão)
-  - Estatística Não Paramétrica, Métodos de Reamostragem (Bootstrap, Permutação), Testes de Ordem
-  - Estatística Multivariada, Análise de Componentes Principais, Análise Fatorial, Análise Discriminante
-  - Aprendizado Estatístico, Aprendizado Supervisionado, Aprendizado Não Supervisionado, Aprendizado por Reforço, Métodos Bayesianos
-  - Estatística Computacional, Métodos de Monte Carlo, Simulação, Computação Estatística de Alto Desempenho
-  - Probabilidade e Estatística Aplicadas em Diversas Áreas (Finanças, Biologia, Medicina, Engenharia, Ciências Sociais, etc.)
-  - Análise de Dados, Mineração de Dados, Big Data Analytics, Visualização de Dados, Data Science
-  - Processamento de Sinais, Teoria do Sinal, Análise de Fourier, Filtros, Compressão, Reconhecimento de Padrões
+- **Probabilidade e Estatística**
+
+  - **Teoria da Probabilidade:**
+
+    - Axiomática da Probabilidade: Espaço amostral, eventos, álgebra de eventos, medidas de probabilidade, axiomas de Kolmogorov, espaços de probabilidade, propriedades básicas de probabilidade, probabilidade em espaços finitos, espaços amostrais contínuos.
+
+      - _Livro_: **"Probability and Measure"** (Patrick Billingsley) - _Capítulos_: Capítulos iniciais sobre axiomática da probabilidade, espaços de probabilidade e medidas.
+      - _Livro_: **"A First Course in Probability"** (Sheldon Ross) - _Capítulos_: Introdução acessível à probabilidade, começando com a axiomática.
+      - _Livro_: **"Probability Theory: A Concise Course"** (Y.A. Rozanov) - _Capítulos_: Tratamento conciso da teoria da probabilidade, incluindo a axiomática.
+
+    - Probabilidade Condicional e Independência: Probabilidade condicional, teorema de Bayes, independência de eventos, independência condicional, probabilidade total, aplicações em inferência bayesiana e redes bayesianas, paradoxos em probabilidade condicional.
+
+      - _Livro_: **"Introduction to Probability"** (Joseph K. Blitzstein, Jessica Hwang) - _Capítulos_: Seções dedicadas à probabilidade condicional, teorema de Bayes e independência. (Disponível online gratuitamente: [https://projects.iq.harvard.edu/stat110/](https://www.google.com/url?sa=E&source=gmail&q=https://projects.iq.harvard.edu/stat110/))
+      - _Livro_: **"Understanding Probability"** (Henk Tijms) - _Capítulos_: Pode abordar probabilidade condicional e teorema de Bayes de forma intuitiva.
+      - _Livro_: **"Bayesian Data Analysis"** (Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, Donald B. Rubin) - _Capítulos_: (Aplicações da probabilidade condicional e teorema de Bayes em análise bayesiana de dados).
+
+    - Variáveis Aleatórias e Distribuições de Probabilidade: Variáveis aleatórias discretas e contínuas, função de distribuição cumulativa (CDF), função de massa de probabilidade (PMF), função de densidade de probabilidade (PDF), distribuições discretas (Bernoulli, binomial, Poisson, geométrica, etc.), distribuições contínuas (uniforme, exponencial, normal, gama, beta, etc.), transformações de variáveis aleatórias.
+
+      - _Livro_: **"Probability and Statistics for Engineering and the Sciences"** (Jay L. Devore, Kenneth N. Berk) - _Capítulos_: Capítulos que introduzem variáveis aleatórias e distribuições de probabilidade comuns.
+      - _Livro_: **"Statistical Inference"** (George Casella, Roger L. Berger) - _Capítulos_: Pode revisar variáveis aleatórias e distribuições como base para inferência estatística.
+      - _Livro_: **"All of Statistics: A Concise Course in Statistical Inference"** (Larry Wasserman) - _Capítulos_: (Introdução concisa a toda a estatística, incluindo variáveis aleatórias e distribuições). (Disponível online gratuitamente em versões anteriores).
+
+    - Esperança Matemática e Variância: Esperança de variáveis aleatórias discretas e contínuas, propriedades da esperança (linearidade), variância e desvio padrão, momentos de variáveis aleatórias, funções geradoras de momentos (MGF), covariância e correlação, desigualdade de Chebyshev, lei fraca dos grandes números, lei forte dos grandes números.
+
+      - _Livro_: **"Probability with Martingales"** (David Williams) - _Capítulos_: (Pode abordar esperança e variância no contexto mais geral de martingales).
+      - _Livro_: **"Probability: Theory and Examples"** (Richard Durrett) - _Capítulos_: Tratamento mais teórico de esperança, variância e leis dos grandes números. (Disponível online gratuitamente: [https://services.math.duke.edu/\~rtd/PTE/PTE5_01May2021.pdf](https://www.google.com/search?q=https://services.math.duke.edu/~rtd/PTE/PTE5_01May2021.pdf))
+      - _Livro_: **"Mathematical Statistics with Applications"** (Dennis Wackerly, William Mendenhall III, Richard L. Scheaffer) - _Capítulos_: Capítulos sobre esperança, variância e momentos em um contexto de estatística matemática.
+
+    - Teorema Central do Limite e Aproximações Normais: Teorema central do limite (TCL) e suas diferentes versões (Lindeberg-Lévy, de Moivre-Laplace), condições para a validade do TCL, aproximação normal para distribuições discretas (binomial, Poisson), aplicações do TCL em estatística inferencial e simulação de Monte Carlo, extensões e generalizações do TCL.
+
+      - _Livro_: **"Probability Theory and Examples"** (Richard Durrett) - _Capítulos_: Tratamento detalhado do teorema central do limite e suas provas. (Disponível online gratuitamente: [https://services.math.duke.edu/\~rtd/PTE/PTE5_01May2021.pdf](https://www.google.com/search?q=https://services.math.duke.edu/~rtd/PTE/PTE5_01May2021.pdf))
+      - _Livro_: **"Probability and Random Processes"** (Geoffrey Grimmett, David Stirzaker) - _Capítulos_: Pode abordar o teorema central do limite no contexto de processos aleatórios.
+      - _Livro_: Artigos de revisão e textos especializados que exploram diferentes versões e aplicações do teorema central do limite.
+
+  - **Processos Estocásticos:**
+
+    - Processos de Markov e Cadeias de Markov: Processos estocásticos, processos de Markov, propriedade de Markov, cadeias de Markov em tempo discreto e tempo contínuo, matriz de transição, probabilidades de transição n-passos, classificação de estados (estados recorrentes, estados transientes, estados absorventes), distribuições estacionárias e distribuições limites, teorema ergódico para cadeias de Markov, aplicações em modelagem estocástica e teoria de filas.
+
+      - _Livro_: **"Markov Chains"** (J.R. Norris) - _Capítulos_: Tratamento rigoroso e completo de cadeias de Markov. (Disponível online gratuitamente: [https://www.statslab.cam.ac.uk/\~james/Markov/](https://www.google.com/url?sa=E&source=gmail&q=https://www.statslab.cam.ac.uk/~james/Markov/))
+      - _Livro_: **"Introduction to Stochastic Processes"** (Gregory F. Lawler) - _Capítulos_: Introdução acessível a processos estocásticos, incluindo cadeias de Markov.
+      - _Livro_: **"Applied Probability and Stochastic Processes"** (Richard M. Feldman, Ronald W. Wolff) - _Capítulos_: Pode abordar cadeias de Markov com foco em aplicações.
+
+    - Processos de Difusão e Movimento Browniano: Processos de difusão como modelos para fenômenos aleatórios contínuos no tempo e no espaço, movimento Browniano como exemplo fundamental de processo de difusão, propriedades do movimento Browniano (caminhos contínuos, não diferenciáveis, martingale), equação de difusão (equação de Fokker-Planck), equações diferenciais estocásticas (EDE), simulação de processos de difusão.
+
+      - _Livro_: **"Brownian Motion"** (Peter Mörters, Yuval Peres) - _Capítulos_: Tratamento moderno e detalhado do movimento Browniano. (Disponível online gratuitamente: [https://pages.iu.edu/\~pmorters/book/book.pdf](https://www.google.com/search?q=https://pages.iu.edu/~pmorters/book/book.pdf))
+      - _Livro_: **"Stochastic Differential Equations: An Introduction with Applications"** (Bernt Øksendal) - _Capítulos_: Introdução a equações diferenciais estocásticas, com movimento Browniano como base.
+      - _Livro_: **"Diffusions, Markov Processes, and Martingales, Volume 1: Foundations"** e **"Volume 2: Itô Calculus"** (L.C.G. Rogers, David Williams) - _Capítulos_: Tratamento avançado de processos de difusão e cálculo de Itô.
+
+    - Cálculo Estocástico e Equações Diferenciais Estocásticas (EDE): Integral estocástica de Itô, lema de Itô, cálculo de Itô para movimento Browniano e processos de difusão, equações diferenciais estocásticas (EDE), existência e unicidade de soluções de EDEs, aplicações em finanças matemáticas (modelo de Black-Scholes), engenharia e física.
+
+      - _Livro_: **"Stochastic Calculus and Financial Applications"** (J. Michael Steele) - _Capítulos_: Introdução ao cálculo estocástico com foco em aplicações financeiras.
+      - _Livro_: **"Financial Engineering and Computation: Principles, Mathematics, and Algorithms"** (Yuh-Dauh Lyuu) - _Capítulos_: (Pode abordar cálculo estocástico no contexto de engenharia financeira e modelos financeiros).
+      - _Livro_: **"Stochastic Integration and Differential Equations"** (Philip Protter) - _Capítulos_: Tratamento avançado e rigoroso de integração estocástica e equações diferenciais estocásticas.
+
+  - **Inferência Estatística:**
+
+    - Estimação Pontual: Estimadores, propriedades de estimadores (não-viesado, consistente, eficiente, suficiente), método da máxima verossimilhança (MLE), método dos momentos, estimadores de Bayes, erro quadrático médio (MSE), informação de Fisher, limite de Cramér-Rao.
+
+      - _Livro_: **"Statistical Inference"** (George Casella, Roger L. Berger) - _Capítulos_: Capítulos detalhados sobre estimação pontual e propriedades de estimadores.
+      - _Livro_: **"Theory of Point Estimation"** (E.L. Lehmann, George Casella) - _Capítulos_: (Tratamento clássico e avançado da teoria da estimação pontual).
+      - _Livro_: **"Elements of Statistical Inference"** (D.A.S. Fraser) - _Capítulos_: Pode oferecer uma perspectiva diferente sobre os fundamentos da inferência estatística e estimação pontual.
+
+    - Estimação por Intervalo: Intervalos de confiança, níveis de confiança, intervalos de confiança para médias, variâncias, proporções, intervalos de confiança baseados em TCL, intervalos de confiança de Bayes, métodos pivotais, relação com testes de hipóteses.
+
+      - _Livro_: **"Statistical Inference"** (George Casella, Roger L. Berger) - _Capítulos_: Capítulos sobre estimação por intervalo e construção de intervalos de confiança.
+      - _Livro_: **"Confidence Intervals and Their Applications"** (Douglas G. Altman, David Machin, Bryant Dunbar Marshall, and Jonathan C. Swinscow) - _Capítulos_: (Focado especificamente em intervalos de confiança e suas aplicações).
+      - _Livro_: **"An Introduction to Bayesian Inference and MCMC"** (Christian Robert, George Casella) - _Capítulos_: (Pode abordar intervalos de credibilidade Bayesianos, análogos aos intervalos de confiança).
+
+    - Testes de Hipóteses: Hipótese nula e hipótese alternativa, erros tipo I e tipo II, nível de significância, poder do teste, valor-p, testes de razão de verossimilhança, testes unilaterais e bilaterais, testes t, testes qui-quadrado, testes F, testes de bondade de ajuste, testes de independência, tradeoff entre erros tipo I e tipo II, aplicações em tomada de decisão estatística.
+
+      - _Livro_: **"Testing Statistical Hypotheses"** (E.L. Lehmann, Joseph P. Romano) - _Capítulos_: Tratamento clássico e avançado de testes de hipóteses.
+      - _Livro_: **"All of Statistics: A Concise Course in Statistical Inference"** (Larry Wasserman) - _Capítulos_: (Inclui uma seção concisa sobre testes de hipóteses). (Disponível online gratuitamente em versões anteriores).
+      - _Livro_: **"Statistical Methods in Experimental Design"** (B. John Tukey, Erich Leo Lehmann) - _Capítulos_: (Trata de métodos estatísticos em design experimental, onde testes de hipóteses são cruciais).
+      - _Livro_: **"Nonparametric Statistical Inference"** (Jean Dickinson Gibbons, Subhabrata Chakraborti) - _Capítulos_: (Pode abordar testes de hipóteses não paramétricos e suas aplicações).
+      - _Livro_: **"Testing Statistical Assumptions in Linear Models"** (Jürgen Groß) - _Capítulos_: (Focado em testes de hipóteses para as premissas de modelos lineares).
+
+    - Análise de Variância (ANOVA): ANOVA one-way, ANOVA two-way, ANOVA multi-way, comparações múltiplas (testes post-hoc), pressupostos da ANOVA (normalidade, homogeneidade de variâncias), ANOVA não paramétrica (teste de Kruskal-Wallis, teste de Friedman), modelos de efeitos fixos e efeitos aleatórios, aplicações em design experimental e comparação de grupos.
+
+      - _Livro_: **"Design and Analysis of Experiments"** (Douglas C. Montgomery) - _Capítulos_: Capítulos sobre análise de variância (ANOVA) em design experimental.
+      - _Livro_: **"Applied Linear Statistical Models"** (Michael H. Kutner, Christopher J. Nachtsheim, John Neter, William Li) - _Capítulos_: (ANOVA é tratada no contexto mais amplo de modelos lineares estatísticos).
+      - _Livro_: **"Nonparametric Statistics"** (Wayne W. Daniel) - _Capítulos_: Pode abordar ANOVA não paramétrica e testes relacionados.
+
+    - Regressão Linear e Modelos Lineares: Regressão linear simples e múltipla, mínimos quadrados, inferência em regressão linear (testes t, testes F, intervalos de confiança), diagnóstico de modelos de regressão (resíduos, alavancagem, influência), multicolinearidade, seleção de variáveis, modelos lineares generalizados (GLM), regressão logística, regressão de Poisson, aplicações em previsão, modelagem estatística e análise de relações entre variáveis.
+
+      - _Livro_: **"Applied Regression Analysis and Generalized Linear Models"** (John Fox) - _Capítulos_: Tratamento abrangente de regressão linear e modelos lineares generalizados (GLM).
+      - _Livro_: **"Linear Models With R"** (Julian Faraway) - _Capítulos_: Regressão linear e modelos lineares com foco na implementação em R. (Disponível online gratuitamente: [http://www.maths.bath.ac.uk/\~jjf23/LMR/](https://www.google.com/search?q=https://www.google.com/url%3Fsa%3DE%26source%3Dgmail%26q%3Dhttp://www.maths.bath.ac.uk/~jjf23/LMR/))
+      - _Livro_: **"Extending the Linear Model with R: Generalized Linear, Mixed Effects and Nonparametric Regression Models"** (Julian Faraway) - _Capítulos_: (Extensão do modelo linear com modelos generalizados, efeitos mistos e regressão não paramétrica). (Disponível online gratuitamente: [http://www.maths.bath.ac.uk/\~jjf23/ELM/](https://www.google.com/search?q=https://www.google.com/url%3Fsa%3DE%26source%3Dgmail%26q%3Dhttp://www.maths.bath.ac.uk/~jjf23/ELM/))
+
+  - **Estatística Não Paramétrica e Métodos de Reamostragem:**
+
+    - Estatística Não Paramétrica: Testes não paramétricos (teste de Wilcoxon, teste de Mann-Whitney, teste de sinais, teste de Spearman), testes de aderência não paramétricos (teste de Kolmogorov-Smirnov), estimação não paramétrica de densidade, regressão não paramétrica, vantagens e desvantagens de métodos não paramétricos, aplicações quando pressupostos paramétricos não são atendidos.
+
+      - _Livro_: **"Nonparametric Statistical Methods"** (Myles Hollander, Douglas A. Wolfe, Eric Chicken) - _Capítulos_: Tratamento clássico e abrangente de estatística não paramétrica.
+      - _Livro_: **"Practical Nonparametric Statistics"** (W.J. Conover) - _Capítulos_: Focado em aplicações práticas de métodos não paramétricos.
+      - _Livro_: **"All of Nonparametric Statistics"** (Larry Wasserman) - _Capítulos_: (Tratamento conciso e moderno da estatística não paramétrica). (Disponível online gratuitamente em versões anteriores).
+
+    - Métodos de Reamostragem (Bootstrap e Permutação): Método Bootstrap para estimação de erros padrão e intervalos de confiança, bootstrap paramétrico e não paramétrico, bootstrap para regressão, testes de permutação para testes de hipóteses não paramétricos, validação cruzada, resampling para avaliação de modelos, aplicações em inferência robusta e computacionalmente intensiva.
+
+      - _Livro_: **"Bootstrap Methods and Their Applications"** (A.C. Davison, D.V. Hinkley) - _Capítulos_: Tratamento detalhado do método bootstrap e suas aplicações.
+      - _Livro_: **"Introduction to the Bootstrap"** (Bradley Efron, Robert Tibshirani) - _Capítulos_: Introdução influente e clássica ao bootstrap.
+      - _Livro_: **"Permutation, Parametric, and Bootstrap Tests of Hypotheses"** (Phillip I. Good) - _Capítulos_: Focado em testes de permutação e bootstrap para testes de hipóteses.
+
+    - Testes de Ordem e Estatísticas de Ordem: Estatísticas de ordem, distribuição de estatísticas de ordem, testes baseados em ranks (testes de sinais, testes de Wilcoxon), testes de ordem para dados pareados e dados independentes, aplicações em testes não paramétricos e robustos.
+
+      - _Livro_: **"Order Statistics"** (Herbert A. David, H.N. Nagaraja) - _Capítulos_: Tratamento completo e de referência para estatísticas de ordem.
+      - _Livro_: **"Ranked Set Sampling: Theory and Applications"** (Munir Ahmad, Shabbir Ahmad, and A.S. Al-Sakran) - _Capítulos_: (Amostragem por conjunto ordenado e suas aplicações, relacionadas a estatísticas de ordem).
+      - _Livro_: Artigos de pesquisa e textos especializados que exploram aplicações de testes de ordem e estatísticas de ordem em áreas específicas.
+
+  - **Estatística Multivariada:**
+
+    - Análise de Componentes Principais (ACP): Redução de dimensionalidade com ACP, componentes principais como combinações lineares de variáveis originais, variância explicada, eigenvalues e eigenvectors da matriz de covariância, scree plot, biplot, aplicações em visualização de dados de alta dimensão, reconhecimento de padrões e análise de imagens.
+
+      - _Livro_: **"Applied Multivariate Statistical Analysis"** (Richard A. Johnson, Dean W. Wichern) - _Capítulos_: Capítulos sobre análise de componentes principais (ACP) em estatística multivariada.
+      - _Livro_: **"The Elements of Statistical Learning: Data Mining, Inference, and Prediction"** (Trevor Hastie, Robert Tibshirani, Jerome Friedman) - _Capítulos_: (ACP é abordada como uma técnica de redução de dimensionalidade em aprendizado estatístico). (Disponível online gratuitamente: [https://web.stanford.edu/\~hastie/ElemStatLearn/](https://www.google.com/search?q=https://www.google.com/url%3Fsa%3DE%26source%3Dgmail%26q%3Dhttps://web.stanford.edu/~hastie/ElemStatLearn/))
+      - _Livro_: **"Principal Component Analysis"** (I.T. Jolliffe) - _Capítulos_: Monografia detalhada e de referência sobre análise de componentes principais.
+
+    - Análise Fatorial: Modelos fatoriais, fatores comuns e fatores específicos, cargas fatoriais, comunalidades, variância específica, rotação de fatores (varimax, promax), interpretação de fatores, testes de adequação de modelos fatoriais, análise fatorial confirmatória e exploratória, aplicações em psicologia, marketing e ciências sociais.
+
+      - _Livro_: **"Applied Multivariate Statistical Analysis"** (Richard A. Johnson, Dean W. Wichern) - _Capítulos_: Capítulos sobre análise fatorial em estatística multivariada.
+      - _Livro_: **"Principles and Practice of Structural Equation Modeling"** (Rex B. Kline) - _Capítulos_: (Análise fatorial confirmatória é um tipo de modelagem de equações estruturais, que é abordada neste livro).
+      - _Livro_: **"Factor Analysis and Related Methods"** (Roderick P. McDonald) - _Capítulos_: (Tratamento mais avançado de análise fatorial e métodos relacionados).
+
+    - Análise Discriminante: Análise discriminante linear (LDA), análise discriminante quadrática (QDA), regra de classificação, matriz de confusão, taxa de erro, validação cruzada, análise discriminante regularizada, aplicações em classificação, reconhecimento de padrões e mineração de dados.
+
+      - _Livro_: **"The Elements of Statistical Learning: Data Mining, Inference, and Prediction"** (Trevor Hastie, Robert Tibshirani, Jerome Friedman) - _Capítulos_: (Análise discriminante linear e quadrática são abordadas em um contexto de aprendizado estatístico e classificação). (Disponível online gratuitamente: [https://web.stanford.edu/\~hastie/ElemStatLearn/](https://www.google.com/search?q=https://www.google.com/url%3Fsa%3DE%26source%3Dgmail%26q%3Dhttps://web.stanford.edu/~hastie/ElemStatLearn/))
+      - _Livro_: **"Pattern Recognition and Machine Learning"** (Christopher M. Bishop) - _Capítulos_: (Análise discriminante em um contexto mais amplo de reconhecimento de padrões e aprendizado de máquina).
+      - _Livro_: **"Discriminant Analysis and Statistical Pattern Recognition"** (Geoffrey McLachlan) - _Capítulos_: (Monografia detalhada sobre análise discriminante e reconhecimento de padrões).
+
+  - **Aprendizado Estatístico:**
+
+    - Aprendizado Supervisionado: Regressão linear, regressão logística, máquinas de vetores de suporte (SVM), árvores de decisão, florestas aleatórias, redes neurais, métodos de vizinhos mais próximos (KNN), avaliação de modelos (validação cruzada, métricas de desempenho), tradeoff viés-variância, regularização, aplicações em classificação e previsão.
+
+      - _Livro_: **"The Elements of Statistical Learning: Data Mining, Inference, and Prediction"** (Trevor Hastie, Robert Tibshirani, Jerome Friedman) - _Capítulos_: Tratamento abrangente de aprendizado supervisionado, incluindo regressão, classificação, SVM, árvores, redes neurais. (Disponível online gratuitamente: [https://web.stanford.edu/\~hastie/ElemStatLearn/](https://www.google.com/search?q=https://www.google.com/url%3Fsa%3DE%26source%3Dgmail%26q%3Dhttps://web.stanford.edu/~hastie/ElemStatLearn/))
+      - _Livro_: **"An Introduction to Statistical Learning with Applications in R"** (Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani) - _Capítulos_: Introdução mais acessível ao aprendizado supervisionado com aplicações em R. (Disponível online gratuitamente: [[https://hastie.su.domains/ISLR2/ISLRv2](https://www.google.com/search?q=https://hastie.su.domains/ISLR2/ISLRv2)\_website.pdf](https://www.google.com/search?q=https://www.google.com/search%3Fq%3Dhttps://hastie.su.domains/ISLR2/ISLRv2_website.pdf))
+      - _Livro_: **"Pattern Recognition and Machine Learning"** (Christopher M. Bishop) - _Capítulos_: Visão abrangente de aprendizado de máquina e reconhecimento de padrões, incluindo aprendizado supervisionado.
+
+    - Aprendizado Não Supervisionado: Agrupamento (k-means, agrupamento hierárquico, DBSCAN), redução de dimensionalidade (ACP, t-SNE, UMAP), detecção de anomalias, regras de associação, modelagem de tópicos, avaliação de métodos não supervisionados, aplicações em segmentação, descoberta de padrões e análise exploratória de dados.
+
+      - _Livro_: **"The Elements of Statistical Learning: Data Mining, Inference, and Prediction"** (Trevor Hastie, Robert Tibshirani, Jerome Friedman) - _Capítulos_: Capítulos sobre aprendizado não supervisionado, incluindo agrupamento e redução de dimensionalidade. (Disponível online gratuitamente: [https://web.stanford.edu/\~hastie/ElemStatLearn/](https://www.google.com/search?q=https://www.google.com/url%3Fsa%3DE%26source%3Dgmail%26q%3Dhttps://web.stanford.edu/~hastie/ElemStatLearn/))
+      - _Livro_: **"Pattern Recognition and Machine Learning"** (Christopher M. Bishop) - _Capítulos_: Inclui uma seção sobre aprendizado não supervisionado em reconhecimento de padrões.
+      - _Livro_: **"Clustering Algorithms"** (Christoph F. Weihs, Claus Weihs) - _Capítulos_: (Monografia focada em algoritmos de agrupamento).
+      - _Livro_: **"Understanding Machine Learning: From Theory to Algorithms"** (Shai Shalev-Shwartz, Shai Ben-David) - _Capítulos_: (Pode abordar aprendizado não supervisionado e agrupamento em um contexto mais teórico). (Disponível online gratuitamente: [http://www.cs.huji.ac.il/\~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf](https://www.google.com/search?q=https://www.google.com/search%3Fq%3Dhttps://www.google.com/url%253Fsa%253DE%2526source%253Dgmail%2526q%253Dhttp://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf))
+      - _Livro_: **"Foundations of Data Science"** (Avrim Blum, John Hopcroft, Ravi Kannan) - _Capítulos_: (Pode abordar aprendizado não supervisionado e redução de dimensionalidade no contexto de ciência de dados). (Disponível online gratuitamente: [https://www.cs.cornell.edu/jeh/book.pdf](https://www.google.com/search?q=https://www.google.com/search%3Fq%3Dhttps://www.google.com/url%253Fsa%253DE%2526source%253Dgmail%2526q%253Dhttps://www.cs.cornell.edu/jeh/book.pdf))
+
+    - Aprendizado por Reforço: Aprendizado por reforço baseado em valor, aprendizado por reforço baseado em política, funções de valor, políticas, algoritmos de aprendizado por reforço (Q-learning, SARSA, Deep Q-Networks, Policy Gradient Methods), exploração vs. explotação, recompensa, ambiente, aplicações em robótica, jogos, sistemas de recomendação e tomada de decisão.
+
+      - _Livro_: **"Reinforcement Learning: An Introduction"** (Richard S. Sutton, Andrew G. Barto) - _Capítulos_: Tratamento de referência e abrangente de aprendizado por reforço. (Disponível online gratuitamente em versões anteriores: [http://incompleteideas.net/book/the-book-2nd.html](https://www.google.com/search?q=https://www.google.com/url%3Fsa%3DE%26source%3Dgmail%26q%3Dhttps://www.google.com/url%253Fsa%253DE%2526source%253Dgmail%2526q%253Dhttp://incompleteideas.net/book/the-book-2nd.html))
+      - _Livro_: **"Algorithms for Reinforcement Learning"** (Csaba Szepesvári) - _Capítulos_: (Focado em algoritmos específicos de aprendizado por reforço). (Disponível online gratuitamente: [[https://sites.ualberta.ca/](https://www.google.com/search?q=https://sites.ualberta.ca/)\~szepesva/RLBook.pdf](https://www.google.com/search?q=https://www.google.com/search%3Fq%3Dhttps://www.google.com/url%253Fsa%253DE%2526source%253Dgmail%2526q%253Dhttps://sites.ualberta.ca/~szepesva/RLBook.pdf))
+      - _Livro_: **"Deep Reinforcement Learning Hands-On"** (Maxim Lapan) - _Capítulos_: (Abordagem prática e hands-on do aprendizado por reforço profundo).
+
+    - Métodos Bayesianos e Inferência Bayesiana: Teorema de Bayes em estatística, probabilidade a priori, verossimilhança, probabilidade a posteriori, distribuições conjugadas, métodos de Monte Carlo via Cadeias de Markov (MCMC), amostragem de Gibbs, Metropolis-Hastings, inferência bayesiana hierárquica, modelagem bayesiana, aplicações em todos os campos da estatística e aprendizado de máquina.
+
+      - _Livro_: **"Bayesian Data Analysis"** (Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, Donald B. Rubin) - _Capítulos_: Tratamento de referência e abrangente de análise bayesiana de dados.
+      - _Livro_: **"Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan"** (John Kruschke) - _Capítulos_: Abordagem prática e tutorial da análise bayesiana com softwares como R, JAGS e Stan.
+      - _Livro_: **"Bayesian Methods for Data Analysis"** (Bradley P. Carlin, Thomas A. Louis) - _Capítulos_: Outro excelente livro texto sobre métodos bayesianos para análise de dados.
+
+  - **Estatística Computacional:**
+
+    - Métodos de Monte Carlo e Simulação: Simulação de Monte Carlo, geração de números aleatórios, amostragem por inversão, amostragem por rejeição, integração de Monte Carlo, variância reduzida, métodos de Monte Carlo via Cadeias de Markov (MCMC), simulação baseada em eventos discretos, aplicações em física, finanças, engenharia e estatística.
+
+      - _Livro_: **"Monte Carlo Statistical Methods"** (Christian P. Robert, George Casella) - _Capítulos_: Tratamento abrangente de métodos estatísticos de Monte Carlo.
+      - _Livro_: **"Simulation"** (Sheldon M. Ross) - _Capítulos_: Focado em simulação, incluindo métodos de geração de números aleatórios e simulação baseada em eventos discretos.
+      - _Livro_: **"Handbook of Monte Carlo Methods"** (Dirk P. Kroese, Thomas Taimre, Zdravko I. Botev) - _Capítulos_: (Manual abrangente sobre métodos de Monte Carlo).
+
+    - Computação Estatística de Alto Desempenho e Big Data: Computação paralela e distribuída em estatística, algoritmos estatísticos para Big Data, métodos de amostragem em Big Data, redução de dimensionalidade para Big Data, estatística em plataformas de computação em nuvem (ex: Spark, Hadoop), aplicações em análise de dados em larga escala.
+
+      - _Livro_: **"Parallel Computing: 알고리즘s and Applications"** (Albert Y. Zomaya) - _Capítulos_: (Embora mais geral sobre computação paralela, pode conter seções relevantes para estatística computacional).
+      - _Livro_: **"Mining of Massive Datasets"** (Jure Leskovec, Anand Rajaraman, Jeffrey David Ullman) - _Capítulos_: (Aborda algoritmos para análise de dados massivos, relevantes para estatística computacional em Big Data). (Disponível online gratuitamente: [http://mmds.org/](https://www.google.com/search?q=https://www.google.com/url%3Fsa%3DE%26source%3Dgmail%26q%3Dhttp://mmds.org/))
+      - _Livro_: Artigos de pesquisa e trabalhos em conferências sobre computação de alto desempenho em estatística e análise de Big Data.
+
+  - **Probabilidade e Estatística Aplicadas em Diversas Áreas:**
+
+    - Aplicações em Finanças: Modelos financeiros estocásticos (modelo de Black-Scholes, modelos de volatilidade estocástica), precificação de opções, gestão de risco, análise de séries temporais financeiras, econometria, modelagem de portfólio, finanças computacionais, aplicações de cálculo estocástico em finanças.
+
+      - _Livro_: **"Options, Futures, and Other Derivatives"** (John C. Hull) - _Capítulos_: (Livro texto padrão sobre derivativos financeiros, que utiliza probabilidade e estatística).
+      - _Livro_: **"Financial Modeling with Jump-Diffusion and Variance Gamma Processes"** (Rama Cont, Peter Tankov) - _Capítulos_: (Modelagem financeira avançada com processos estocásticos mais complexos).
+      - _Livro_: **"Quantitative Finance"** (Paul Wilmott) - _Capítulos_: (Tratamento abrangente de finanças quantitativas, com uso extensivo de probabilidade e estatística).
+
+    - Aplicações em Biologia e Medicina (Bioestatística): Bioestatística, ensaios clínicos, epidemiologia, genética estatística, bioinformática, modelagem de processos biológicos, análise de dados genômicos, estatística em saúde pública, aplicações de probabilidade e estatística em pesquisa biomédica.
+
+      - _Livro_: **"Biostatistics: A Methodology For the Health Sciences"** (Gerald van Belle, Lloyd D. Fisher, Patrick J. Heagerty, Thomas Lumley) - _Capítulos_: Livro texto abrangente sobre bioestatística.
+      - _Livro_: **"Statistical Genetics: Gene Mapping Through Linkage and Association"** (Robert C. Elston, Jurg Ott, Gonçalo R. Abecasis) - _Capítulos_: (Estatística genética e suas aplicações em mapeamento de genes).
+      - _Livro_: **"Bioinformatics Algorithms: Design and Implementation in Python"** (Miguel Rocha) - _Capítulos_: (Bioinformática e uso de algoritmos e estatística em biologia computacional).
+
+    - Aplicações em Engenharia e Ciências Exatas: Controle de qualidade estatístico, confiabilidade, análise de risco, teoria de filas, otimização estocástica, simulação em engenharia, análise de dados experimentais, aplicações de probabilidade e estatística em diversas áreas da engenharia e ciências exatas.
+
+      - _Livro_: **"Probability and Statistics in Engineering"** (William W. Hines, Douglas C. Montgomery, David M. Goldsman, Connie M. Borror) - _Capítulos_: Livro texto focado em aplicações de probabilidade e estatística em engenharia.
+      - _Livro_: **"Statistical Quality Control"** (Douglas C. Montgomery) - _Capítulos_: (Controle de qualidade estatístico e suas aplicações na indústria e engenharia).
+      - _Livro_: **"Queueing Systems, Volume 1: Theory"** e **"Volume 2: Computer Applications"** (Leonard Kleinrock) - _Capítulos_: (Teoria de filas e suas aplicações em sistemas de engenharia e computação).
+
+    - Aplicações em Ciências Sociais e Humanas (Estatística Social): Métodos estatísticos em ciências sociais, amostragem e surveys, análise de dados de surveys, econometria, psicometria, sociometria, estatística para ciências comportamentais, aplicações de probabilidade e estatística em pesquisa social e humana.
+
+      - _Livro_: **"Statistics for Social Data Analysis"** (George W. Bohrnstedt, David Knoke) - _Capítulos_: Livro texto sobre estatística aplicada à análise de dados sociais.
+      - _Livro_: **"Applied Econometrics with R"** (Christian Kleiber, Achim Zeileis) - _Capítulos_: (Econometria aplicada com uso de R, relevante para ciências sociais e econômicas).
+      - _Livro_: **"Handbook of Survey Research"** (Peter Marsden, James D. Wright) - _Capítulos_: (Manual sobre pesquisa por survey, com métodos estatísticos para coleta e análise de dados em ciências sociais).
+
+  - **Análise de Dados, Mineração de Dados e Data Science:**
+
+    - Análise Exploratória de Dados (AED) e Visualização de Dados: Análise exploratória de dados (AED), resumo estatístico de dados, visualização de dados (histogramas, boxplots, scatterplots, gráficos de barras, etc.), ferramentas de visualização de dados (R, Python - Matplotlib, Seaborn, Plotly), storytelling com dados, descoberta de padrões em dados, aplicações em todas as áreas da ciência de dados.
+
+      - _Livro_: **"Exploratory Data Analysis"** (John Tukey) - _Capítulos_: Obra seminal que introduziu e popularizou a análise exploratória de dados (AED).
+      - _Livro_: **"R for Data Science"** (Hadley Wickham, Garrett Grolemund) - _Capítulos_: (Focado em análise de dados com R, incluindo visualização e AED). (Disponível online gratuitamente: [https://r4ds.hadley.nz/](https://www.google.com/search?q=https://www.google.com/url%3Fsa%3DE%26source%3Dgmail%26q%3Dhttps://r4ds.hadley.nz/))
+      - _Livro_: **"Python Data Science Handbook"** (Jake VanderPlas) - _Capítulos_: (Focado em análise de dados com Python, incluindo visualização e AED). (Disponível online gratuitamente: [https://jakevdp.github.io/PythonDataScienceHandbook/](https://www.google.com/search?q=https://www.google.com/url%3Fsa%3DE%26source%3Dgmail%26q%3Dhttps://jakevdp.github.io/PythonDataScienceHandbook/))
+
+    - Mineração de Dados e Descoberta de Conhecimento em Bancos de Dados (KDD): Processo de descoberta de conhecimento em bancos de dados (KDD), etapas do KDD (seleção, pré-processamento, transformação, mineração de dados, avaliação), algoritmos de mineração de dados (agrupamento, classificação, regras de associação, detecção de anomalias), métricas de avaliação em mineração de dados, aplicações em negócios, marketing, web mining e text mining.
+
+      - _Livro_: **"Data Mining: Concepts and Techniques"** (Jiawei Han, Micheline Kamber, Jian Pei) - _Capítulos_: Livro texto abrangente sobre mineração de dados, cobrindo conceitos, técnicas e algoritmos.
+      - _Livro_: **"Principles of Data Mining"** (David Hand, Heikki Mannila, Padhraic Smyth) - _Capítulos_: Outro livro texto popular sobre princípios de mineração de dados.
+      - _Livro_: **"The Elements of Data Mining"** (Peter Tan, Michael Steinbach, Vipin Kumar) - _Capítulos_: (Introdução mais acessível aos elementos essenciais da mineração de dados). (Disponível online gratuitamente em versões anteriores).
+
+    - Big Data Analytics e Processamento de Dados em Larga Escala: Desafios de Big Data (volume, velocidade, variedade, veracidade, valor), plataformas de Big Data (Hadoop, Spark, Flink), processamento distribuído de dados, algoritmos de aprendizado de máquina escaláveis para Big Data, análise de dados em tempo real (stream mining), visualização de Big Data, aplicações em empresas, governo e ciência.
+
+      - _Livro_: **"Big Data: Principles and Best Practices of Scalable Systems"** (Nathan Marz, James Warren) - _Capítulos_: (Focado em princípios e melhores práticas para sistemas escaláveis de Big Data).
+      - _Livro_: **"Designing Data-Intensive Applications"** (Martin Kleppmann) - _Capítulos_: (Design de aplicações intensivas em dados, incluindo aspectos de Big Data).
+      - _Livro_: **"Spark: The Definitive Guide: Big Data Processing Made Simple"** (Matei Zaharia, Bill Chambers) - _Capítulos_: (Guia definitivo para o Apache Spark, uma plataforma chave para processamento de Big Data).
+
+    - Data Science e Ciência de Dados: Data Science como campo interdisciplinar, ciclo de vida da ciência de dados, habilidades de um cientista de dados, ética em ciência de dados, ferramentas e tecnologias para ciência de dados (R, Python, SQL, Hadoop, Spark, Machine Learning Libraries), aplicações de ciência de dados em diversos domínios, futuro da ciência de dados.
+
+      - _Livro_: **"Data Science from Scratch: First Principles with Python"** (Joel Grus) - _Capítulos_: Abordagem prática de ciência de dados com Python, construindo algoritmos do zero.
+      - _Livro_: **"Doing Data Science: Straight Talk From The Frontline"** (Cathy O'Neil, Rachel Schutt) - _Capítulos_: Visão geral da prática da ciência de dados "na trincheira", com insights de cientistas de dados experientes.
+      - _Livro_: **"The Data Science Design Manual"** (Steven S. Skiena) - _Capítulos_: (Manual prático para o design de projetos de ciência de dados).
+
+  - **Processamento de Sinais:**
+
+    - Teoria do Sinal e Análise de Fourier: Sinais contínuos e discretos, transformada de Fourier contínua (TFCC), transformada de Fourier discreta (TFD), propriedades da transformada de Fourier, espectro de frequência, teorema de amostragem de Nyquist-Shannon, transformada rápida de Fourier (FFT), janelamento, análise de tempo-frequência, aplicações em processamento de áudio, processamento de imagens e comunicações.
+
+      - _Livro_: **"Signals and Systems"** (Alan V. Oppenheim, Alan S. Willsky, with S. Hamid Nawab) - _Capítulos_: Livro texto clássico e abrangente sobre sinais e sistemas, incluindo análise de Fourier.
+      - _Livro_: **"Discrete-Time Signal Processing"** (Alan V. Oppenheim, Ronald W. Schafer) - _Capítulos_: Focado em processamento de sinais em tempo discreto, incluindo a transformada de Fourier discreta (TFD).
+      - _Livro_: **"The Scientist and Engineer's Guide to Digital Signal Processing"** (Steven W. Smith) - _Capítulos_: (Guia prático e acessível para processamento digital de sinais, com muitos exemplos e aplicações). (Disponível online gratuitamente: [http://www.dspguide.com/](https://www.google.com/search?q=https://www.google.com/url%3Fsa%3DE%26source%3Dgmail%26q%3Dhttp://www.dspguide.com/))
+
+    - Filtros e Projeto de Filtros: Filtros lineares invariantes no tempo (LTI), resposta em frequência, filtros ideais e filtros práticos, filtros FIR e filtros IIR, projeto de filtros FIR (método da janela, método da amostragem em frequência), projeto de filtros IIR (transformação bilinear, filtros Butterworth, Chebyshev, elípticos), realização de filtros, aplicações em processamento de áudio, processamento de imagens, comunicações e controle.
+
+      - _Livro_: **"Digital Filter Design"** (T.W. Parks, C.S. Burrus) - _Capítulos_: (Tratamento avançado e detalhado do projeto de filtros digitais).
+      - _Livro_: **"Analog and Digital Filter Design"** (Steve Winder) - _Capítulos_: (Aborda projeto de filtros analógicos e digitais).
+      - _Livro_: **"VLSI Digital Signal Processing Systems: Design and Implementation"** (Keshab K. Parhi) - _Capítulos_: (Pode abordar projeto de filtros digitais no contexto de implementação VLSI).
+
+    - Compressão de Dados e Compressão de Sinal: Compressão sem perdas (algoritmos de Huffman, Lempel-Ziv), compressão com perdas (transformada discreta de cosseno - DCT, wavelets), formatos de compressão de áudio (MP3, AAC, Vorbis), formatos de compressão de imagem (JPEG, PNG, GIF), formatos de compressão de vídeo (MPEG, H.264, HEVC), tradeoffs entre taxa de compressão e qualidade, aplicações em armazenamento de dados, transmissão de dados e multimídia.
+
+      - _Livro_: **"Data Compression: The Complete Reference"** (David Salomon) - _Capítulos_: Referência completa e abrangente sobre compressão de dados.
+      - _Livro_: **"Introduction to Data Compression"** (Khalid Sayood) - _Capítulos_: Introdução mais acessível à compressão de dados.
+      - _Livro_: **"JPEG Still Image Data Compression Standard"** (William B. Pennebaker, Joan L. Mitchell) - _Capítulos_: (Focado no padrão de compressão de imagem JPEG).
+
+    - Reconhecimento de Padrões e Análise de Sinal: Extração de características, classificação, agrupamento, reconhecimento de voz, reconhecimento de imagem, visão computacional, processamento de linguagem natural (PLN), análise de séries temporais, aplicações em inteligência artificial, aprendizado de máquina, biometria e segurança.
+
+      - _Livro_: **"Pattern Recognition and Machine Learning"** (Christopher M. Bishop) - _Capítulos_: Capítulos sobre reconhecimento de padrões e suas relações com aprendizado de máquina e análise de sinais.
+      - _Livro_: **"Digital Image Processing"** (Rafael C. Gonzalez, Richard E. Woods) - _Capítulos_: (Processamento digital de imagens e reconhecimento de padrões em imagens).
+      - _Livro_: **"Speech and Language Processing"** (Daniel Jurafsky, James H. Martin) - _Capítulos_: (Processamento de linguagem natural, incluindo reconhecimento de voz e análise de texto). (Disponível online gratuitamente em versões anteriores: [https://web.stanford.edu/\~jurafsky/slp3/](https://www.google.com/search?q=https://www.google.com/url%3Fsa%3DE%26source%3Dgmail%26q%3Dhttps://web.stanford.edu/~jurafsky/slp3/))
+
 - Otimização (Programação Matemática)
   - Programação Linear, Método Simplex, Dualidade, Análise de Sensibilidade, Programação Linear Inteira
   - Programação Não Linear, Otimização Convexa, Programação Quadrática, Otimização Não Convexa, Métodos de Gradiente
