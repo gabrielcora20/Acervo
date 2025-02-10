@@ -14920,6 +14920,47 @@
       - _Livro_: **"Numerical Methods for Scientists and Engineers"** (Richard Hamming) - _Capítulos_: (Pode abordar questões de precisão numérica e estabilidade em computação científica, relevante para geometria computacional).
       - _Livro_: Artigos de pesquisa e textos especializados em geometria computacional robusta e numérica.
 
+  - **Geometria Euclidiana e Aplicações em Arte, Arquitetura, Engenharia, Desenho Técnico, Gráficos Computacionais:**
+
+    - Geometria na Arte e Arquitetura: Perspectiva em arte, proporção áurea, simetria e padrões em arte, geometria fractal em arte, construções geométricas em arquitetura (plantas, fachadas), geometria sagrada, aplicações da geometria euclidiana na história da arte e arquitetura.
+
+      - _Livro_: **"The Geometry of Art and Life"** (Matila Ghyka) - _Capítulos_: (Explora a presença da geometria na arte e na vida, incluindo proporção áurea e simetria).
+      - _Livro_: **"Sacred Geometry: Philosophy and Practice"** (Robert Lawlor) - _Capítulos_: (Geometria sagrada e suas aplicações em arte, arquitetura e filosofia).
+      - _Livro_: **"Art and Geometry"** (William M. Ivins Jr.) - _Capítulos_: (Relação histórica entre arte e geometria euclidiana).
+      - _Livro_: **"The Power of Limits: Proportional Harmonies in Nature, Art, and Architecture"** (György Doczi) - _Capítulos_: (Explora as proporções harmônicas e a geometria nas formas naturais e nas criações humanas, arte e arquitetura).
+      - _Livro_: **"Architectural Geometry"** (Helmut Pottmann, Andreas Breussler, Johannes Wallner, Jian Chen) - _Capítulos_: (Geometria arquitetônica, abordando a matemática por trás do design arquitetônico moderno).
+      - _Livro_: Artigos de revisão e textos especializados em geometria e suas interseções com arte e arquitetura, incluindo estudos sobre geometria fractal em arte e aplicações da proporção áurea.
+
+    - Geometria na Engenharia e Desenho Técnico: Desenho geométrico, projeções ortográficas e isométricas, cotagem, tolerâncias geométricas, geometria descritiva aplicada à engenharia, modelagem 3D para engenharia, aplicações da geometria euclidiana em diversas áreas da engenharia (mecânica, civil, elétrica, etc.).
+
+      - _Livro_: **"Technical Drawing with Engineering Graphics"** (Frederick Giesecke, Alva Mitchell, Henry C. Spencer, Ivan Leroy Hill, John T. Dygdon, James E. Novak, Shawna E. Sadagurski) - _Capítulos_: (Livro texto abrangente sobre desenho técnico e representação gráfica em engenharia, com fundamentos na geometria euclidiana).
+      - _Livro_: **"Engineering Graphics Essentials with AutoCAD 2023 Instruction"** (Kirstie Plantenberg) - _Capítulos_: (Desenho de engenharia com foco no uso do AutoCAD, ferramenta fundamental baseada em princípios geométricos).
+      - _Livro_: **"Descriptive Geometry"** (Keller, Edward; Borgmeyer, Larry; Steward, Cecil) - _Capítulos_: (Tratamento detalhado de geometria descritiva e suas aplicações em engenharia).
+
+    - Geometria Euclidiana em Gráficos Computacionais: Transformações geométricas em computação gráfica (translação, rotação, escala, cisalhamento), projeções em computação gráfica (projeção paralela, projeção perspectiva), modelagem 3D, rasterização, shading, iluminação, texturização, geometria computacional aplicada a gráficos.
+      - _Livro_: **"Computer Graphics: Principles and Practice"** (James D. Foley, Andries van Dam, Steven K. Feiner, John F. Hughes, Morgan McGuire) - _Capítulos_: (Bíblia da computação gráfica, cobrindo todos os aspectos, desde transformações geométricas até técnicas de renderização avançadas).
+      - _Livro_: **"Mathematics for 3D Game Programming and Computer Graphics"** (Eric Lengyel) - _Capítulos_: (Matemática para programação de jogos 3D e computação gráfica, com forte ênfase em geometria euclidiana e transformações).
+      - _Livro_: **"Real-Time Rendering"** (Tomas Akenine-Möller, Eric Haines, Naty Hoffman, Angelo Pesce, Michał Iwanicki, Sébastien Hillaire) - _Capítulos_: (Renderização em tempo real, otimizações e técnicas avançadas baseadas em princípios geométricos).
+
+  - **Geometria Projetiva e Geometria Não-Euclidiana Sintética (como contrapartida e extensão da Euclidiana):**
+
+    - Geometria Projetiva Sintética: Introdução à geometria projetiva, plano projetivo real, espaço projetivo real, axiomas da geometria projetiva, dualidade projetiva, teoremas fundamentais da geometria projetiva (teorema de Desargues, teorema de Pappus), coordenadas homogêneas, transformações projetivas (homografias), aplicações em perspectiva e visão computacional.
+
+      - _Livro_: **"Projective Geometry"** (H.S.M. Coxeter) - _Capítulos_: (Tratamento clássico e abrangente da geometria projetiva).
+      - _Livro_: **"Geometry of Projective Space"** (C. Herbert Clemens, David Eisenbud) - _Capítulos_: (Geometria do espaço projetivo, com foco em variedades projetivas e tópicos avançados).
+      - _Livro_: **"3D Computer Vision: A Modern Approach"** (Richard Szeliski) - _Capítulos_: (Pode abordar geometria projetiva no contexto de visão computacional 3D e perspectiva).
+
+    - Geometria Hiperbólica Sintética (Geometria de Lobachevsky): Postulado das paralelas na geometria hiperbólica, modelos de geometria hiperbólica (modelo de Poincaré, disco de Klein, hiperbolóide), geometria do triângulo hiperbólico, trigonometria hiperbólica, espaços hiperbólicos de dimensões superiores, relações com a relatividade especial e teoria de grupos.
+
+      - _Livro_: **"Non-Euclidean Geometry"** (Roberto Bonola) - _Capítulos_: (Tradução de textos clássicos sobre geometria não euclidiana, incluindo trabalhos de Lobachevsky e Bolyai).
+      - _Livro_: **"Hyperbolic Geometry"** (James W. Anderson) - _Capítulos_: (Introdução moderna e acessível à geometria hiperbólica).
+      - _Livro_: **"Visualizing Hyperbolic Space: Tilings and Constructions in 3D"** (Dick Dunham) - _Capítulos_: (Visualização da geometria hiperbólica, tesselações e construções em 3D).
+
+    - Geometria Elíptica Sintética (Geometria Riemanniana Esférica): Geometria na esfera, linhas geodésicas (círculos máximos), triângulos esféricos, trigonometria esférica, área na esfera, geometria elíptica como modelo de geometria não euclidiana, conexões com geometria Riemanniana e topologia.
+      - _Livro_: **"Spherical Trigonometry"** (J.D.H. Cole e P.R. Cole) - _Capítulos_: (Trigonometria esférica e suas aplicações, base para a geometria elíptica).
+      - _Livro_: **"Riemannian Geometry: A Beginner's Guide"** (Frank Morgan) - _Capítulos_: (Pode abordar a geometria esférica como um exemplo introdutório de geometria Riemanniana).
+      - _Livro_: **"Geometry and the Imagination"** (David Hilbert e S. Cohn-Vossen) - _Capítulos_: (Pode apresentar modelos visuais e intuitivos de geometrias não euclidianas, incluindo a esférica).
+
 - **Geometria Não-Euclidiana**
 
   - **Geometria Hiperbólica:**
