@@ -6,17 +6,17 @@
 
 #### Operações Aritméticas
 
-- Adição e Subtração
+- Adição e Subtração **(precisa encaixar conjuntos naturais e inteiros antes)**
 
   - Propriedades
-    - Comutativa: a + b = b + a
-    - Associativa: (a + b) + c = a + (b + c)
-    - Elemento Neutro: a + 0 = a
-    - Elemento Oposto: a + (-a) = 0
+    - Comutativa: a + b = b + a **(ok)**
+    - Associativa: (a + b) + c = a + (b + c) **(ok)**
+    - Elemento Neutro: a + 0 = a **(ok)**
+    - Elemento Oposto: a + (-a) = 0 **(ok)**
   - Adição e subtração de números inteiros, racionais, reais e complexos
-    - Regras de sinais
-    - Operações com números negativos
-    - Adição e subtração no plano complexo (interpretação geométrica)
+    - Regras de sinais **(ok)**
+    - Operações com números negativos **(ok)**
+    - Adição e subtração no plano complexo (interpretação geométrica) **(precisa de reposicionamento)**
   - Frações e números decimais
     - Conversão entre frações e decimais
       - Frações próprias, impróprias e mistas
@@ -28,7 +28,7 @@
     - Dízimas periódicas e frações geratrizes
       - Identificação de dízimas periódicas simples e compostas
       - Cálculo da fração geratriz
-  - Subtração como adição do oposto: a - b = a + (-b)
+  - Subtração como adição do oposto: a - b = a + (-b) **(ok)**
   - Uso de parênteses, colchetes e chaves
     - Ordem de precedência
     - Eliminação de parênteses, colchetes e chaves
@@ -36,11 +36,11 @@
 - Multiplicação e Divisão
 
   - Propriedades
-    - Comutativa: a _ b = b _ a
-    - Associativa: (a _ b) _ c = a _ (b _ c)
+    - Comutativa: a \* b = b \* a
+    - Associativa: (a \* b) \* c = a \* (b \* c)
     - Elemento Neutro: a \* 1 = a
     - Elemento Inverso: a \* (1/a) = 1 (para a ≠ 0)
-    - Distributiva: a _ (b + c) = a _ b + a \* c
+    - Distributiva: a \* (b + c) = a \* b + a \* c
   - Multiplicação e divisão de números inteiros, racionais, reais e complexos
     - Regras de sinais
     - Multiplicação e divisão no plano complexo (interpretação geométrica)
@@ -49,7 +49,7 @@
       - Produto de potências de mesma base: a<sup>m</sup> \* a<sup>n</sup> = a<sup>m+n</sup>
       - Quociente de potências de mesma base: a<sup>m</sup> / a<sup>n</sup> = a<sup>m-n</sup>
       - Potência de potência: (a<sup>m</sup>)<sup>n</sup> = a<sup>m\*n</sup>
-      - Potência de um produto: (a _ b)<sup>n</sup> = a<sup>n</sup> _ b<sup>n</sup>
+      - Potência de um produto: (a \* b)<sup>n</sup> = a<sup>n</sup> \* b<sup>n</sup>
       - Potência de um quociente: (a / b)<sup>n</sup> = a<sup>n</sup> / b<sup>n</sup>
     - Potências com expoentes inteiros, racionais e reais
       - Expoentes negativos: a<sup>-n</sup> = 1/a<sup>n</sup>
